@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    padding: 15px;
+   
+    .LeftImg {
+        
+    }
+    .LeftImg img{
+        display: flex;
+        width: 664px;;
+        height: auto;
+        -webkit-box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.75);
+        border-radius: 15px;
+        border: var(--color-border-default,black);
+    }
+    .textRight h5 {
+        padding: 22px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .textRight span {
+        font-size: 1.5em;
+        padding: 15px;
+        line-height: var(--spacing-layout-elements, 2em);
+        border: 3px solid #03fa14;
+        border-radius: 30px;
+        box-shadow: 0 0 0 1px black;
+    }
+    .textRight{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 30px;
+        
+        font-size: 1.2em;
+        
+    }
+    .textRight p {
+        padding-top: 10px;
+        line-height: 2em;
+    }
+    .textRight p::first-letter{
+        font-size: 2em;
+        font-weight: bold;
+    }
+}

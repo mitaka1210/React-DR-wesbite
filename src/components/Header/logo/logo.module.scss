@@ -1,0 +1,20 @@
+.logo {
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    border-bottom: 1px solid #000;
+    flex: 0 1 auto
+}
+
+.profession {
+    justify-content: center;
+    display: flex;
+}
+
+b{
+    color: blue;
+}
+.closed {
+    color: red;
+}
