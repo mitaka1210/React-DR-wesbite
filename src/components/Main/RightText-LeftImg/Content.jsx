@@ -4,9 +4,9 @@ import img from '../images/about.jpg';
 function Content() {
     return (
         <div className = {style.content}>
-            <div className={style.LeftImg}>
+            {/*<div className={style.LeftImg}>
                 <img src={img} alt=""/>
-            </div>
+            </div>*/}
             <div className= {style.textRight}>
                 <h5>WELCOME TO DENTISTA</h5>
                 <span>

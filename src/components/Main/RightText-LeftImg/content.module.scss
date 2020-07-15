@@ -3,25 +3,31 @@
     flex-direction: row;
     flex-basis: 100%;
     padding: 15px;
-   
+    width: 100%;
+    height: auto;
+    background-image: url("./../images/img-1.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+
     .LeftImg {
-        
     }
-    .LeftImg img{
+    .LeftImg img {
         display: flex;
-        width: 664px;;
+        max-width: 300px;
+        object-fit: fill;
         height: auto;
-        -webkit-box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.75);
-        box-shadow: 0px 7px 35px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.75);
         border-radius: 15px;
-        border: var(--color-border-default,black);
+        border: var(--color-border-default, black);
     }
     .textRight h5 {
         padding: 22px;
         display: flex;
         justify-content: center;
-       
     }
     .textRight span {
         font-size: 1.5em;
@@ -31,21 +37,19 @@
         border-radius: 30px;
         box-shadow: 0 0 0 1px black;
     }
-    .textRight{
-
+    .textRight {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         padding-left: 30px;
-        
+
         font-size: 1.2em;
-        
     }
     .textRight p {
         padding-top: 10px;
         line-height: 2em;
     }
-    .textRight p::first-letter{
+    .textRight p::first-letter {
         font-size: 2em;
         font-weight: bold;
     }
