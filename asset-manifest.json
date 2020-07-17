@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-DR-wesbite/static/css/main.bb4c2081.chunk.css",
+    "main.js": "/React-DR-wesbite/static/js/main.d6468a43.chunk.js",
+    "main.js.map": "/React-DR-wesbite/static/js/main.d6468a43.chunk.js.map",
+    "runtime-main.js": "/React-DR-wesbite/static/js/runtime-main.3d4ab8f6.js",
+    "runtime-main.js.map": "/React-DR-wesbite/static/js/runtime-main.3d4ab8f6.js.map",
+    "static/js/2.6fb769e2.chunk.js": "/React-DR-wesbite/static/js/2.6fb769e2.chunk.js",
+    "static/js/2.6fb769e2.chunk.js.map": "/React-DR-wesbite/static/js/2.6fb769e2.chunk.js.map",
+    "index.html": "/React-DR-wesbite/index.html",
+    "precache-manifest.9724e36a39457a0526464a60dae7dfce.js": "/React-DR-wesbite/precache-manifest.9724e36a39457a0526464a60dae7dfce.js",
+    "service-worker.js": "/React-DR-wesbite/service-worker.js",
+    "static/css/main.bb4c2081.chunk.css.map": "/React-DR-wesbite/static/css/main.bb4c2081.chunk.css.map",
+    "static/js/2.6fb769e2.chunk.js.LICENSE.txt": "/React-DR-wesbite/static/js/2.6fb769e2.chunk.js.LICENSE.txt",
+    "static/media/about.jpg": "/React-DR-wesbite/static/media/about.407bd1fa.jpg",
+    "static/media/dental-1.svg": "/React-DR-wesbite/static/media/dental-1.789bcbaf.svg",
+    "static/media/img-1.jpg": "/React-DR-wesbite/static/media/img-1.8a7121ab.jpg",
+    "static/media/img-2.jpg": "/React-DR-wesbite/static/media/img-2.0c40349b.jpg",
+    "static/media/bgrText.module.scss": "/React-DR-wesbite/static/media/img-4.d85001e8.jpg",
+    "static/media/img-5.jpg": "/React-DR-wesbite/static/media/img-5.064ca718.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d4ab8f6.js",
+    "static/js/2.6fb769e2.chunk.js",
+    "static/css/main.bb4c2081.chunk.css",
+    "static/js/main.d6468a43.chunk.js"
+  ]
+}
