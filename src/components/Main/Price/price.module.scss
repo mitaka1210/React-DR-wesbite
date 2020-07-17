@@ -1,0 +1,98 @@
+.price__Header {
+	text-align: center;
+}
+.card__Box__Content {
+	display: flex;
+
+	justify-content: space-around;
+
+	align-items: center;
+	padding-bottom: 20em;
+}
+.container__Box {
+	position: relative;
+
+	border: 2px solid blue;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.price__Card {
+	text-align: center;
+}
+.price__Price {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 2.2em;
+	p {
+		position: relative;
+		top: 21px;
+		padding-left: 3px;
+		font-size: 0.5em;
+	}
+}
+.Order {
+	display: flex;
+	flex-flow: column nowrap;
+
+	.price__Order .price__item:nth-child(1) {
+		background-color: greenyellow;
+	}
+	.price__Order .price__item:nth-child(2) {
+		background-color: red;
+	}
+	.price__Order .price__item:nth-child(3) {
+		background-color: blue;
+	}
+	.price__Order .price__item:nth-child(4) {
+		background-color: purple;
+	}
+	.price__Order .price__item:nth-child(5) {
+		background-color: palevioletred;
+	}
+}
+.price__Order {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 0;
+}
+.price__item p {
+	padding: 15px;
+}
+.offer {
+	position: relative;
+	top: 1.3em;
+}
+.button {
+	position: relative;
+	font-size: 0.9em;
+	padding: 5px;
+	border: 2px solid blue;
+	background-color: blueviolet;
+
+	border-radius: 25%;
+	width: 140px;
+	height: 40px;
+	p {
+		text-align: center;
+		padding: 0;
+		color: yellow;
+	}
+}
+
+.button:hover {
+	background-color: yellowgreen;
+	color: yellowgreen;
+	p {
+		color: red;
+	}
+}
+
+.price__Price text:hover {
+	color: yellowgreen;
+}

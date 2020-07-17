@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Oswald:400,600,700|Raleway:400,700,800,900&display=swap&subset=cyrillic,cyrillic-ext');*/
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,600,700|Raleway:400,700,800,900&display=swap&subset=cyrillic,cyrillic-ext");
 
 *,
 *::before,
@@ -29,7 +29,7 @@ aside {
 
 html {
     box-sizing: border-box;
-    font: var(--font-size-body, 14px) / 1.5 "Raleway", Georgia, serif;
+    font: var(--font-size-body, 14px) / 1.5 var(--main-font-family);
 }
 
 @media (min-width: 600px) {

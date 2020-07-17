@@ -1,0 +1,170 @@
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.servicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.servicesContainer .box {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.servicesContainer .box::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    pointer-events: none;
+}
+.servicesContainer .box .icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+    border-radius: 50%;
+}
+.servicesContainer .box .icon img {
+    width: 30px;
+    height: 50px;
+}
+
+.servicesContainer .box:nth-child(1) .icon {
+    box-shadow: 0 0 0 0 #e91e63;
+    background-color: #e91e63;
+}
+.servicesContainer .box:nth-child(1):hover .icon {
+    box-shadow: 0 0 0 500px #e91e63;
+}
+.servicesContainer .box:nth-child(2) .icon {
+    box-shadow: 0 0 0 0 #23e629;
+    background-color: #23e629;
+}
+.servicesContainer .box:nth-child(2):hover .icon {
+    box-shadow: 0 0 0 500px #23e629;
+}
+.servicesContainer .box:nth-child(3) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: #2196f3;
+}
+.servicesContainer .box:nth-child(3):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+.servicesContainer .box:nth-child(4) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-image: linear-gradient(
+        to right top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #52cffe,
+        #41dfff,
+        #46eefa,
+        #5ffbf1
+    );
+}
+.servicesContainer .box:nth-child(4):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+.servicesContainer .box:nth-child(5) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: #2196f3;
+}
+.servicesContainer .box:nth-child(5):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+.servicesContainer .box:nth-child(6) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: #2196f3;
+}
+.servicesContainer .box:nth-child(6):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+.servicesContainer .box:nth-child(7) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: #2196f3;
+}
+.servicesContainer .box:nth-child(7):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+.servicesContainer .box:nth-child(8) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: #2196f3;
+}
+.servicesContainer .box:nth-child(8):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+.servicesContainer .box:nth-child(9) .icon {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: #2196f3;
+}
+.servicesContainer .box:nth-child(9):hover .icon {
+    box-shadow: 0 0 0 500px #2196f3;
+}
+
+.servicesContainer .box .contentText {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.servicesContainer .box .contentText:hover {
+    color: white;
+}
+.servicesContainer .box .contentText h5 {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.servicesContainer .box .contentText p {
+    margin: 0;
+    padding: 0;
+}
+.servicesContainer .box .contentText a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.services h2 {
+    border: 3px solid #03fa14;
+    border-radius: 30px;
+    width: 8em;
+    text-align: center;
+    -webkit-box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.75);
+}

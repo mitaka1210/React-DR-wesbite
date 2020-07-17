@@ -1,42 +1,54 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import style from './servisec.module.scss'
-import img from '../images/dental-1.svg'
-function Services() {
+import style from './services.module.scss';
+import img from '../images/dental-1.svg';
+import Card  from '../Services/Card';
+function Services(work ) {
     return (
         <div className = {style.services}>
-        <h2>Services</h2>
+        <h4>Services</h4>
+        <h2>My Services</h2>
+        <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
       
             <div className= {style.servicesContainer}>
-                <div className={style.box}>
-                    <div className={style.icon}>
-                        <img src={img} alt=""/>
-                    </div>
-                    <div className={style.contentText}>
-                        <h5>Services name</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-
-                <div className={style.box}>
-                    <div className={style.icon}>02</div>
-                    <div className={style.contentText}>
-                        <h5>Services name</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-
-                <div className={style.box}>
-                    <div className={style.icon}>03</div>
-                    <div className={style.contentText}>
-                        <h5>Services name</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-                
+            <Card work = {<Fragment>
+                 <h6>Dental Implants</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} />
+            <Card work = {<Fragment>
+                 <h6>Cosmetic Dentistry</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} /> 
+            <Card work = {<Fragment>
+                 <h6>Dental Care</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>}/>
+            <Card work = {<Fragment>
+                 <h6>Teeth Whitening</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>}/>
+            <Card work = {<Fragment>
+                 <h6>Dental Calculus</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} />
+            <Card work = {<Fragment>
+                 <h6>Periondontics</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} />
+            <Card work = {<Fragment>
+                 <h6>Clip & Braces</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} />
+            <Card work = {<Fragment>
+                 <h6>Root Canel</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} />
+            <Card work = {<Fragment>
+                 <h6>Implants</h6>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis hic vel placeat, praesentium perferendis accusamus quaerat molestiae, dolorum rerum dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore soluta.</p>
+             </Fragment>} />
+               
+               
             </div>
         </div>
     )

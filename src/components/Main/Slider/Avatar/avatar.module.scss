@@ -1,8 +1,12 @@
+.For__Me {
+  display: flex;
+  flex-direction: column;
+}
 .captioned_gallery {
   width: 100%;
   overflow: hidden;
-  margin-top: 5em;
-  height: 500px;
+
+  height: 384px;
 }
 figure {
   //background: #101010;
@@ -61,6 +65,19 @@ figure {
     align-items: center;
     font-size: 1rem;
     padding: 0.6rem;
+  }
+}
+
+.about__Me {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200px;
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+  .say {
+    align-self: center;
   }
 }
 

@@ -1,0 +1,25 @@
+.bgr__Text {
+	background-image: url("../images/img-4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	object-fit: cover;
+}
+.bgr__Text__One,
+.bgr__Text__Two {
+	position: relative;
+	text-align: justify;
+	top: 15%;
+	left: 0%;
+	padding: 1.3em;
+	font-style: italic;
+	font-size: 1.2em;
+	width: 40%;
+	color: red;
+	font-family: var(--p--font-family);
+}
+.bgr__Text__One {
+	font-weight: 700;
+}
