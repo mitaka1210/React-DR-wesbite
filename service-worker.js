@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React-DR-wesbite/precache-manifest.9724e36a39457a0526464a60dae7dfce.js"
+  "/React-DR-wesbite/precache-manifest.01d85d93bf10acee6731bd70d35f5b87.js"
 );
 
 self.addEventListener('message', (event) => {
