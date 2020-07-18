@@ -5,11 +5,12 @@ import Services from '../../../Main/Services/Services';
 import Avatar from '../../../Main/Slider/Avatar/avatar';
 import BgrText from '../../../Main/BGR_IMG+TEXT/BgrText';
 import Price from '../../../Main/Price/Price';
-//import Pricing from '../../../Main/Price/Pricing';
+import style from './style.module.scss';
+
 
 function Home() {
     return (
-        <div>
+        <div className={style.page__1}>
         
             <Slider />
             <Content />
@@ -17,7 +18,7 @@ function Home() {
             <BgrText />
             <Avatar />
             <Price />
-            {/*<Pricing />*/}
+           
 
         </div>
     )

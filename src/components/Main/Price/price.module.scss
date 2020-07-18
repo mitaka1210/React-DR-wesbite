@@ -12,12 +12,15 @@
 .container__Box {
 	position: relative;
 
-	border: 2px solid blue;
+	border: 1px solid blue;
 	width: 300px;
 	height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+.container__Box:hover {
+	color: red;
 }
 .price__Card {
 	text-align: center;
@@ -41,19 +44,19 @@
 	flex-flow: column nowrap;
 
 	.price__Order .price__item:nth-child(1) {
-		background-color: greenyellow;
+		background-color: rgb(190, 190, 189);
 	}
 	.price__Order .price__item:nth-child(2) {
-		background-color: red;
+		background-color: rgb(255, 255, 255);
 	}
 	.price__Order .price__item:nth-child(3) {
-		background-color: blue;
+		background-color: rgb(190, 190, 189);
 	}
 	.price__Order .price__item:nth-child(4) {
-		background-color: purple;
+		background-color: rgb(255, 255, 255);
 	}
 	.price__Order .price__item:nth-child(5) {
-		background-color: palevioletred;
+		background-color: rgb(190, 190, 189);
 	}
 }
 .price__Order {

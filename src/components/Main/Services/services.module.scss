@@ -5,6 +5,7 @@
     min-height: 100vh;
     flex-direction: column;
 }
+
 .servicesContainer {
     display: flex;
     flex-wrap: wrap;
@@ -52,28 +53,28 @@
     height: 50px;
 }
 
-.servicesContainer .box:nth-child(1) .icon {
+.servicesContainer .card__01 .icon {
     box-shadow: 0 0 0 0 #e91e63;
     background-color: #e91e63;
 }
-.servicesContainer .box:nth-child(1):hover .icon {
+.servicesContainer .card__01:hover .icon {
     box-shadow: 0 0 0 500px #e91e63;
 }
-.servicesContainer .box:nth-child(2) .icon {
+.servicesContainer .card__02 .icon {
     box-shadow: 0 0 0 0 #23e629;
-    background-color: #23e629;
+    background-color: #2330e6;
 }
-.servicesContainer .box:nth-child(2):hover .icon {
+.servicesContainer .card__02:hover .icon {
     box-shadow: 0 0 0 500px #23e629;
 }
-.servicesContainer .box:nth-child(3) .icon {
-    box-shadow: 0 0 0 0 #2196f3;
-    background-color: #2196f3;
+.servicesContainer .card__03 .icon {
+    box-shadow: 0 0 0 0 #f61500;
+    background-color: #db7312;
 }
-.servicesContainer .box:nth-child(3):hover .icon {
-    box-shadow: 0 0 0 500px #2196f3;
+.servicesContainer .card__03:hover .icon {
+    box-shadow: 0 0 0 500px #fa0000;
 }
-.servicesContainer .box:nth-child(4) .icon {
+.servicesContainer .card__04 .icon {
     box-shadow: 0 0 0 0 #2196f3;
     background-image: linear-gradient(
         to right top,
@@ -91,43 +92,43 @@
         #5ffbf1
     );
 }
-.servicesContainer .box:nth-child(4):hover .icon {
+.servicesContainer .card__04:hover .icon {
     box-shadow: 0 0 0 500px #2196f3;
 }
-.servicesContainer .box:nth-child(5) .icon {
-    box-shadow: 0 0 0 0 #2196f3;
-    background-color: #2196f3;
+.servicesContainer .card__05 .icon {
+    box-shadow: 0 0 0 0 #f321d7;
+    background-color: #f321d0;
 }
-.servicesContainer .box:nth-child(5):hover .icon {
+.servicesContainer .card__05:hover .icon {
+    box-shadow: 0 0 0 500px #f32191;
+}
+.servicesContainer .card__06 .icon {
+    box-shadow: 0 0 0 0 #6bec4a;
+    background-color: #1a7a12;
+}
+.servicesContainer .card__06:hover .icon {
+    box-shadow: 0 0 0 500px #21f34f;
+}
+.servicesContainer .card__07 .icon {
+    box-shadow: 0 0 0 0 #01ff9d;
+    background-color: #76d3af;
+}
+.servicesContainer .card__07:hover .icon {
     box-shadow: 0 0 0 500px #2196f3;
 }
-.servicesContainer .box:nth-child(6) .icon {
-    box-shadow: 0 0 0 0 #2196f3;
-    background-color: #2196f3;
+.servicesContainer .card__08 .icon {
+    box-shadow: 0 0 0 0 #a72d2d;
+    background-color: #b4f321;
 }
-.servicesContainer .box:nth-child(6):hover .icon {
-    box-shadow: 0 0 0 500px #2196f3;
+.servicesContainer .card__08:hover .icon {
+    box-shadow: 0 0 0 500px #41f321;
 }
-.servicesContainer .box:nth-child(7) .icon {
-    box-shadow: 0 0 0 0 #2196f3;
-    background-color: #2196f3;
+.servicesContainer .card__09 .icon {
+    box-shadow: 0 0 0 0 #f32121;
+    background-color: #21c2f3;
 }
-.servicesContainer .box:nth-child(7):hover .icon {
-    box-shadow: 0 0 0 500px #2196f3;
-}
-.servicesContainer .box:nth-child(8) .icon {
-    box-shadow: 0 0 0 0 #2196f3;
-    background-color: #2196f3;
-}
-.servicesContainer .box:nth-child(8):hover .icon {
-    box-shadow: 0 0 0 500px #2196f3;
-}
-.servicesContainer .box:nth-child(9) .icon {
-    box-shadow: 0 0 0 0 #2196f3;
-    background-color: #2196f3;
-}
-.servicesContainer .box:nth-child(9):hover .icon {
-    box-shadow: 0 0 0 500px #2196f3;
+.servicesContainer .card__09:hover .icon {
+    box-shadow: 0 0 0 500px #24005d;
 }
 
 .servicesContainer .box .contentText {
