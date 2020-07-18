@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "541a3f6b4732b7686dafc5999fbde7b9",
+    "revision": "f1fb75d69b19e53895508f3c7e237472",
     "url": "/React-DR-wesbite/index.html"
   },
   {
-    "revision": "a1b71741cb270130c0db",
+    "revision": "745deab93c70fcc97e53",
     "url": "/React-DR-wesbite/static/css/main.b5748a6b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1b71741cb270130c0db",
-    "url": "/React-DR-wesbite/static/js/main.808b86d3.chunk.js"
+    "revision": "745deab93c70fcc97e53",
+    "url": "/React-DR-wesbite/static/js/main.63848aaf.chunk.js"
   },
   {
     "revision": "6d538fb934185a467769",

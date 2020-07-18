@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-DR-wesbite/static/css/main.b5748a6b.chunk.css",
-    "main.js": "/React-DR-wesbite/static/js/main.808b86d3.chunk.js",
-    "main.js.map": "/React-DR-wesbite/static/js/main.808b86d3.chunk.js.map",
+    "main.js": "/React-DR-wesbite/static/js/main.63848aaf.chunk.js",
+    "main.js.map": "/React-DR-wesbite/static/js/main.63848aaf.chunk.js.map",
     "runtime-main.js": "/React-DR-wesbite/static/js/runtime-main.3d4ab8f6.js",
     "runtime-main.js.map": "/React-DR-wesbite/static/js/runtime-main.3d4ab8f6.js.map",
     "static/js/2.ca53e538.chunk.js": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js",
     "static/js/2.ca53e538.chunk.js.map": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js.map",
     "index.html": "/React-DR-wesbite/index.html",
-    "precache-manifest.01d85d93bf10acee6731bd70d35f5b87.js": "/React-DR-wesbite/precache-manifest.01d85d93bf10acee6731bd70d35f5b87.js",
+    "precache-manifest.21791b597efb6082dd85a2c2d4c7d899.js": "/React-DR-wesbite/precache-manifest.21791b597efb6082dd85a2c2d4c7d899.js",
     "service-worker.js": "/React-DR-wesbite/service-worker.js",
     "static/css/main.b5748a6b.chunk.css.map": "/React-DR-wesbite/static/css/main.b5748a6b.chunk.css.map",
     "static/js/2.ca53e538.chunk.js.LICENSE.txt": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.3d4ab8f6.js",
     "static/js/2.ca53e538.chunk.js",
     "static/css/main.b5748a6b.chunk.css",
-    "static/js/main.808b86d3.chunk.js"
+    "static/js/main.63848aaf.chunk.js"
   ]
 }
