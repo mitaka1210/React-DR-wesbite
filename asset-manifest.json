@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/React-DR-wesbite/static/css/main.b5748a6b.chunk.css",
-    "main.js": "/React-DR-wesbite/static/js/main.63848aaf.chunk.js",
-    "main.js.map": "/React-DR-wesbite/static/js/main.63848aaf.chunk.js.map",
+    "main.css": "/React-DR-wesbite/static/css/main.a2e57ee2.chunk.css",
+    "main.js": "/React-DR-wesbite/static/js/main.f60e350d.chunk.js",
+    "main.js.map": "/React-DR-wesbite/static/js/main.f60e350d.chunk.js.map",
     "runtime-main.js": "/React-DR-wesbite/static/js/runtime-main.3d4ab8f6.js",
     "runtime-main.js.map": "/React-DR-wesbite/static/js/runtime-main.3d4ab8f6.js.map",
-    "static/js/2.ca53e538.chunk.js": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js",
-    "static/js/2.ca53e538.chunk.js.map": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js.map",
+    "static/js/2.9295c3c8.chunk.js": "/React-DR-wesbite/static/js/2.9295c3c8.chunk.js",
+    "static/js/2.9295c3c8.chunk.js.map": "/React-DR-wesbite/static/js/2.9295c3c8.chunk.js.map",
     "index.html": "/React-DR-wesbite/index.html",
-    "precache-manifest.21791b597efb6082dd85a2c2d4c7d899.js": "/React-DR-wesbite/precache-manifest.21791b597efb6082dd85a2c2d4c7d899.js",
+    "precache-manifest.0f839bfd6a091c9c5f49d459c1d77aea.js": "/React-DR-wesbite/precache-manifest.0f839bfd6a091c9c5f49d459c1d77aea.js",
     "service-worker.js": "/React-DR-wesbite/service-worker.js",
-    "static/css/main.b5748a6b.chunk.css.map": "/React-DR-wesbite/static/css/main.b5748a6b.chunk.css.map",
-    "static/js/2.ca53e538.chunk.js.LICENSE.txt": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js.LICENSE.txt",
+    "static/css/main.a2e57ee2.chunk.css.map": "/React-DR-wesbite/static/css/main.a2e57ee2.chunk.css.map",
+    "static/js/2.9295c3c8.chunk.js.LICENSE.txt": "/React-DR-wesbite/static/js/2.9295c3c8.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/React-DR-wesbite/static/media/about.407bd1fa.jpg",
     "static/media/img-1.jpg": "/React-DR-wesbite/static/media/img-1.8a7121ab.jpg",
     "static/media/img-2.jpg": "/React-DR-wesbite/static/media/img-2.0c40349b.jpg",
     "static/media/bgrText.module.scss": "/React-DR-wesbite/static/media/img-4.d85001e8.jpg",
-    "static/media/img-5.jpg": "/React-DR-wesbite/static/media/img-5.064ca718.jpg"
+    "static/media/img-5.jpg": "/React-DR-wesbite/static/media/img-5.064ca718.jpg",
+    "static/media/img-6.jpg": "/React-DR-wesbite/static/media/img-6.cdcfeaba.jpg",
+    "static/media/img-8.png": "/React-DR-wesbite/static/media/img-8.80a8a897.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3d4ab8f6.js",
-    "static/js/2.ca53e538.chunk.js",
-    "static/css/main.b5748a6b.chunk.css",
-    "static/js/main.63848aaf.chunk.js"
+    "static/js/2.9295c3c8.chunk.js",
+    "static/css/main.a2e57ee2.chunk.css",
+    "static/js/main.f60e350d.chunk.js"
   ]
 }

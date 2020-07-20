@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1fb75d69b19e53895508f3c7e237472",
+    "revision": "31776d939185882c6ea4842f249c29f4",
     "url": "/React-DR-wesbite/index.html"
   },
   {
-    "revision": "745deab93c70fcc97e53",
-    "url": "/React-DR-wesbite/static/css/main.b5748a6b.chunk.css"
+    "revision": "9c4c4fc8241345b55cfb",
+    "url": "/React-DR-wesbite/static/css/main.a2e57ee2.chunk.css"
   },
   {
-    "revision": "d5a52d0b221082a265ed",
-    "url": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js"
+    "revision": "6aa113b93e9dd1938935",
+    "url": "/React-DR-wesbite/static/js/2.9295c3c8.chunk.js"
   },
   {
     "revision": "dd207babaeb913476be46155cc504ef5",
-    "url": "/React-DR-wesbite/static/js/2.ca53e538.chunk.js.LICENSE.txt"
+    "url": "/React-DR-wesbite/static/js/2.9295c3c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "745deab93c70fcc97e53",
-    "url": "/React-DR-wesbite/static/js/main.63848aaf.chunk.js"
+    "revision": "9c4c4fc8241345b55cfb",
+    "url": "/React-DR-wesbite/static/js/main.f60e350d.chunk.js"
   },
   {
     "revision": "6d538fb934185a467769",
@@ -42,5 +42,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "064ca7187df9235b933aa5d603de091f",
     "url": "/React-DR-wesbite/static/media/img-5.064ca718.jpg"
+  },
+  {
+    "revision": "cdcfeaba58b7babed411d1afc1375ff6",
+    "url": "/React-DR-wesbite/static/media/img-6.cdcfeaba.jpg"
+  },
+  {
+    "revision": "80a8a897954e104fb16724c4706a9675",
+    "url": "/React-DR-wesbite/static/media/img-8.80a8a897.png"
   }
 ]);
