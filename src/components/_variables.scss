@@ -1,3 +1,5 @@
+//@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300;1,500;1,900&display=swap");
+
 :root {
     --font-size-body: 14px;
     --font-size-body-larger: 16px;
@@ -5,8 +7,8 @@
     --font-size-body-huge: 20px;
 
     --layout-main-width: 60em;
-    --main-font-family: "Raleway", serif;
-    --p--font-family: Arial, Helvetica, sans-serif;
+    //--main-font-family: "Raleway", serif;
+    --p--font-family: "Raleway", sans-serif;
     --color-body-text: #000;
     --color-body-bgrd: #fff;
     --color-link-default: #369;

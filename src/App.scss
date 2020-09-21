@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:400,600,700|Raleway:400,700,800,900&display=swap&subset=cyrillic,cyrillic-ext");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300;1,500;1,900&display=swap");
 
 *,
 *::before,
@@ -101,7 +101,7 @@ h5,
 h6 {
     margin-bottom: 0.5em;
     font-weight: normal;
-    font-family: Merriweather, serif;
+    //font-family: Merriweather, serif;
 }
 
 h1 {
@@ -137,6 +137,8 @@ p,
 ul,
 ol {
     padding-bottom: 1.5em;
+    font-family: "Raleway", sans-serif;
+    //font-family: var(--p--font-family);
 }
 
 ul,

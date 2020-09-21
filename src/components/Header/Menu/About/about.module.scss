@@ -1,0 +1,34 @@
+.header__item {
+	text-align: center;
+	color: blue;
+}
+
+.container__Box {
+	display: flex;
+	justify-content: space-evenly;
+	p {
+		flex: 2;
+		padding-left: 30px;
+		line-height: 25px;
+	}
+}
+.contentTxt {
+	display: flex;
+	flex-flow: column wrap;
+}
+.container__Small {
+	padding-left: 30px;
+	li {
+		text-decoration: dotted;
+	}
+}
+.container__img {
+	width: 100%;
+	display: flex;
+	flex: 1;
+
+	img {
+		padding-left: 30px;
+		max-width: 300px;
+	}
+}

@@ -6,7 +6,7 @@ import Avatar from '../../../Main/Slider/Avatar/avatar';
 import BgrText from '../../../Main/BGR_IMG+TEXT/BgrText';
 import Price from '../../../Main/Price/Price';
 import style from './style.module.scss';
-
+import Footer from '../../../Footer/Footer';
 
 function Home() {
     return (
@@ -18,7 +18,7 @@ function Home() {
             <BgrText />
             <Avatar />
             <Price />
-           
+           <Footer />
 
         </div>
     )

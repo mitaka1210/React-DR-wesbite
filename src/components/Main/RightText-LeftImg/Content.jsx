@@ -8,7 +8,7 @@ function Content() {
         <img src={img} alt="" />
       </div>
       <div className={style.textRight}>
-        <h5>WELCOME TO DENTISTA</h5>
+        <h5 >Добре дошли при д-р Вълчева</h5>
         <span>Medical specialty concerned with the care of acutely ill hospitalized patients</span>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam corporis, ut odio

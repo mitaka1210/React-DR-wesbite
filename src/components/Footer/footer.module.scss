@@ -1,0 +1,145 @@
+.container__Box {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	display: flex;
+	height: 30vh;
+	margin-top: 2em;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	max-width: 1300px;
+
+}
+
+// Mixin for easier colors
+@mixin social__container($color) {
+	.social__cube {
+
+		.front__cube,
+		.back {
+			background: $color;
+		}
+
+		.bottom__cube {
+			background: darken($color, 10%);
+		}
+	}
+
+	&:hover .social__cube {
+		.bottom__cube {
+			background-color: $color;
+		}
+
+		.front__cube {
+			background: lighten($color, 10%);
+		}
+	}
+}
+
+// Social container styles
+.social__container,
+.social__container__facebook,
+.social__container__twitter,
+.social__container__youtube,
+.social__container__VK {
+	position: relative;
+	display: inline-block;
+	width: 164px;
+	height: 36px;
+	perspective: 300px;
+	font-size: 14px;
+	margin: 8px;
+
+	.social__cube {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+		transition: all 0.333s;
+		transform: translateZ(-18px);
+
+		.front__cube,
+		.bottom__cube {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: chartreuse;
+			color: darkblue;
+			transition: background 0.333s;
+		}
+
+		//.front__cube span {
+		//	color: blue;
+		//}
+		.front__cube {
+			transform: rotateX(0deg) translateZ(18px);
+
+		}
+
+		.bottom__cube {
+			transform: rotateX(-90deg) translateZ(18px);
+
+		}
+	}
+
+	&:hover .social__cube {
+		transform: translateZ(-18px) rotateX(90deg);
+	}
+}
+
+.front__cube {
+	font-size: 1em;
+}
+
+
+// Custom colors
+$twitter-blue: #4099FF;
+$facebook-blue: #3b5998;
+$instagram-red: #db570a;
+$github-gray: #767676;
+$Vk-blue: #605eb8;
+$codepen-gray: #191919;
+
+.social__container {
+	&__VK {
+		@include social__container($Vk-blue);
+	}
+
+	&__facebook {
+		@include social__container($facebook-blue);
+	}
+
+	&__youtube {
+		@include social__container($instagram-red);
+	}
+
+	&.twitter {
+		@include social__container($twitter-blue);
+	}
+
+	//&.dribbble {
+	//	@include social__container(red);
+	//}
+
+	//&.codepen {
+	//	@include social__container(red);
+	//}
+}
+
+
+//? All rights reserved 
+
+.designer {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: .1em;
+}
